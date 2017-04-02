@@ -1,0 +1,7 @@
+{
+	"name":"helloworld",
+	"dependencies":{
+		"robotjs":"latest",
+		"express":"latest"
+	}
+}
