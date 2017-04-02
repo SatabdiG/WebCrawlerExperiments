@@ -98,10 +98,10 @@ Node.prototype.search=function(val)
     }
     else if(val < this.value && this.left!=null)
     {
-        this.left.search(val);
+        return this.left.search(val);
     }else if(val > this.value && this.right!=null)
     {
-        this.right.search(val);
+        return this.right.search(val);
     }
    
 }
